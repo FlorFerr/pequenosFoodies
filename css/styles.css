@@ -29,10 +29,15 @@
         color: #2151CE;
     }
 
+.principal__titulo{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;  
+    text-align: center;
+    color: #515151;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*Arreglar el margin */
+}
 
-body{
-    background-color: #E5E5E5;
-    }
 h2{
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;
@@ -46,11 +51,49 @@ p{
     font-weight: normal;
     font-size: 16px;
     line-height: 35px;
-
-
-text-align: justify;
-letter-spacing: 0.1em;
-
-color: #555555;
+  
+    letter-spacing: 0.1em;
+    color: #555555;
 }
 
+.imagenFondo{
+    width: 100%;
+    height: 420px;
+}
+
+.quienesSomos__contenedor{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    
+}
+.quienesSomos__img{
+    max-width: 70%;
+    height: auto;
+    
+}
+
+
+.quienesSomos__indContenedor{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 20px;    ;
+    justify-content: space-around;
+    
+    
+}
+
+.contenedor__individuales{
+    background-color: brown;
+    max-width: 18rem;
+    height: auto;
+}
+
+.quienesSomos__individuales{
+    width: 100%;
+    height: auto;
+}
