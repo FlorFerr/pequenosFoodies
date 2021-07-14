@@ -6,7 +6,7 @@
     background-color:#FFE5B3;
     font-family: 'Chewy', cursive;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     }
     #menu{
         display: flex;
@@ -19,16 +19,15 @@
     display: flex;
     font-size: 27px;
     }
-
     .fa-instagram-square{
         color: #D95071;
         padding-right:5px;
     }
-
     .fa-facebook-square{
         color: #2151CE;
     }
 
+/*PRINCIPAL*/
 .principal__titulo{
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;  
@@ -37,7 +36,6 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /*Arreglar el margin */
 }
-
 h2{
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;
@@ -45,55 +43,102 @@ h2{
     text-align: center;
     color: #515151;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 22px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 35px;
-  
     letter-spacing: 0.1em;
     color: #555555;
 }
-
+/*Media para que en el celu no este el letter spacing
+corregir padding y margin*/
 .imagenFondo{
     width: 100%;
     height: 420px;
 }
 
+/*QUIENES SOMOS*/
 .quienesSomos__contenedor{
-    margin: 20px 0 20px 0;
-    width: 100%;
+    margin: 10px;
+    max-width: 100%;
     height: auto;
     text-align: center;
-    
-    
 }
 .quienesSomos__img{
-    max-width: 70%;
+    max-width: 75%;
     height: auto;
-    
 }
-
-
 .quienesSomos__indContenedor{
     max-width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 20px;    ;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;   
 }
 
+/*
+.quienesSomos__indContenedor{
+    justify-content: space-between; o nada probar } 
+*/
 .contenedor__individuales{
-    background-color: brown;
-    max-width: 18rem;
+    margin: 10px 0 10px 0;
+    max-width: 20rem;
     height: auto;
 }
-
 .quienesSomos__individuales{
     width: 100%;
     height: auto;
+}
+/*CURSOS*/
+
+.consulta__subtitulo{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;  
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #515151;
+    margin: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+
+.consulta__imgContenedor{
+    margin: 10px;
+    max-width: 100%;
+    height: auto;}
+
+.consulta__img{
+    width: 100%;
+    height: auto;
+    }
+
+.consulta__boton{
+    background: #D7E1A6;
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+    font-family: 'Puritan', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #737373;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 180px;
+}
+
+.consulta__contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+.consulta{
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
