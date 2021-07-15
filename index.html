@@ -21,6 +21,9 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -107,8 +110,7 @@
           <img
             class="quienesSomos__individuales"
             src="images/Imagen4.png"
-            alt=""
-          />
+            alt=""/>
         </div>
         <div class="contenedor__individuales">
           <img
@@ -137,6 +139,36 @@
         un mundo de nuevos sabores, texturasy por supuesto una alimentación
         saludable que perdure en el tiempo.
       </p>
+      <div>
+        <div class="slide">
+          <div class="card">
+            <img class= "card__img" src="images/fondo4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="" target=”_blank”>Taller de alimentación complementaria y Baby led weaning (BLW).</a></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img class= "card__img" src="images/fondo4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="" target=”_blank”>Taller de alimentación infantil de 1 a 3 años</a></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img class= "card__img" src="images/fondo4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="" target=”_blank”>Taller de alergia a la proteína de la leche de vaca</a></h5>
+            </div>
+          </div>
+          <div class="card">
+            <img class= "card__img" src="images/fondo4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a  href="" target=”_blank”>Taller de alimentación vegetariana infantil</a></h5>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="consultaIndividual">
       <h2 class="consulta__titulo">Consulta individual</h2>
       <h3 class="consulta__subtitulo">Modalidad: Online/Presencial</h3>
       <div class="prueba">
@@ -164,8 +196,38 @@
     </div>
   </div>
     </div>
+  </div>
     </section>
-    <footer></footer>
+
+    <section>
+      <div class="formulario__contenedor">			
+        <form class="form">
+        <h2>Contacto</h2>
+        <div class="form__section">
+        <label for="nombre"></label>
+        <input type="Text" name="Nombre" id="nombre" required placeholder="Nombre" class="form-control">
+        </div>
+        <div class="form__section">
+        <label for="telefono"></label>
+        <input type="number" name="Telefono" id="telefono" placeholder="Teléfono" class="form-control">
+        </div>
+        <div class="form__section">
+        <label for="email"></label>
+        <input type="Email" name="Email" required id="email" placeholder="Email" class="form-control">
+        </div>
+        <div class="form__section">
+        <label for="comentario"></label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Dejanos tu mensaje" class="form-control"></textarea><br>
+        </div>
+        <div class="form__section">	
+        <input type="submit" value="Enviar" name="Enviar" class="btn btn__contacto">
+        </div>
+        </form>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -177,5 +239,7 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

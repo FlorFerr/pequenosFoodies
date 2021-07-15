@@ -94,7 +94,9 @@ corregir padding y margin*/
     height: auto;
 }
 /*CURSOS*/
-
+.consultaIndividual{
+    margin-top: 20px;
+}
 .consulta__subtitulo{
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;  
@@ -107,6 +109,17 @@ corregir padding y margin*/
     padding: 20px;
 }
 
+h5 a{
+    font-family: 'Puritan', sans-serif;
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+
+text-align: center;
+
+color: #494847;
+}
 
 .consulta__imgContenedor{
     margin: 10px;
@@ -131,6 +144,8 @@ corregir padding y margin*/
     width: 180px;
 }
 
+
+
 .consulta__contenedor{
     display: flex;
     justify-content: flex-start;
@@ -141,4 +156,58 @@ corregir padding y margin*/
     display: flex;
     align-items: center;
     margin: 10px;
+}
+
+
+/*CONTACTO*/
+.formulario__contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    flex-wrap: wrap; }
+    .form {
+      text-align: center;
+      width: 500px; }
+     .form__section {
+        width: 100%; }
+.form__section textarea {
+          height: 110px;
+          resize: none; }
+.form-control {
+        outline: none;
+        border-radius: 10px;
+        border: 1px solid #f4d3e9; }
+.form-control:focus, .custom-select:focus, .custom-control-input:focus ~ .custom-control-label::before, .custom-control-input:focus:not(:checked) ~ .custom-control-label::before { border-color: transparent; box-shadow: 0 0 0 0.5px #d9d9d9; }
+.btn__contacto{
+    background: #D7E1A6;
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+    font-family: 'Puritan', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #737373;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 180px;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    width: 20rem; 
+    height: auto;
+    margin: 20px; 
+}
+.card__img{
+
+    width: 100%;
+    height: auto;
+}
+
+.slick-dots li button:before{
+    font-size: 20px;
 }
