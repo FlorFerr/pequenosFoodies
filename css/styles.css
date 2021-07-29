@@ -123,6 +123,27 @@ corregir padding y margin*/
     height: auto;
 }
 /*CURSOS*/
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    width: 20rem; 
+    height: auto;
+    margin: 20px; 
+}
+.card__img{
+
+    width: 100%;
+    height: auto;
+}
+
+.slick-dots li button:before{
+    font-size: 20px;
+}
+
 .consultaIndividual{
     margin-top: 20px;
 }
@@ -149,44 +170,6 @@ text-align: center;
 
 color: #494847;
 }
-
-.consulta__imgContenedor{
-    margin: 10px;
-    max-width: 100%;
-    height: auto;}
-
-.consulta__img{
-    width: 100%;
-    height: auto;
-    }
-
-.consulta__boton{
-    background: #D7E1A6;
-    border-radius: 10px;
-    padding: 6px;
-    border: none;
-    font-family: 'Puritan', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #737373;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 180px;
-}
-
-
-
-.consulta__contenedor{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column; 
-}
-.consulta{
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
-
 
 /*CONTACTO*/
 .formulario__contenedor {
@@ -220,23 +203,45 @@ color: #494847;
     width: 180px;
 }
 
-.slide{
+/*FOOTER*/
+footer{
+    background-color: #3F3B33;
+}
+.copy{
+    margin: 0;
+}
+.contenedorFoot{
+    width: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    
 }
-
-.card{
-    width: 20rem; 
+/*meqdia con flex direction column probar*/
+.conteLogoFooter{
+    width: 250px;
     height: auto;
-    margin: 20px; 
+    text-align: center;
 }
-.card__img{
-
-    width: 100%;
+.logoFooter{
+    width: 90%;
     height: auto;
 }
+.redesFooter a{
+    text-decoration: none;
+    color: #FAFAFA;
+    font-family: 'Puritan', sans-serif;
+    font-size: 18px;
+}
 
-.slick-dots li button:before{
-    font-size: 20px;
+    
+.listaFooter{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.redesFooter a:hover{
+    color:#d7e1a6;
 }
