@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
     
     }
     .sliderCard{
@@ -85,8 +85,7 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 16px;
-    line-height: 35px;
-    letter-spacing: 0.1em;
+    
     color: #555555;
 }
 /*Media para que en el celu no este el letter spacing
@@ -214,9 +213,7 @@ color: #494847;
 footer{
     background-color: #3F3B33;
 }
-.copy{
-    margin: 0;
-}
+
 .contenedorFoot{
     width: 100%;
     padding: 20px;
@@ -224,31 +221,69 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     
 }
+@media only screen and (max-width: 480px) {
+    .contenedorFoot {
+        justify-content: flex-start; }
+    .conteLogoFooter{
+        margin: auto;
+    }
+        
+    }
 /*meqdia con flex direction column probar*/
 .conteLogoFooter{
     width: 250px;
     height: auto;
     text-align: center;
+    
+
 }
 .logoFooter{
-    width: 90%;
+    width: 100%;
     height: auto;
+    
 }
-.redesFooter a{
+.enlacesFooter ul{
+    margin-bottom: 0;
+}
+.enlacesFooter a{
     text-decoration: none;
     color: #FAFAFA;
     font-family: 'Puritan', sans-serif;
     font-size: 18px;
 }
 
-    
 .listaFooter{
     list-style-type: none;
     padding: 10px;
 }
 
-.redesFooter a:hover{
+.enlacesFooter a:hover{
     color:#d7e1a6;
+}
+
+.redesFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.textFooter{
+    color: white;
+    font-family: 'Puritan', sans-serif;
+    font-size: 17px;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+.copy{
+    color: white;
+    font-family: 'Puritan', sans-serif;
+    font-size: 20px;
+    margin: 5px 0 0 ;
+    padding: 0 10px;
+    text-align: center;
 }
