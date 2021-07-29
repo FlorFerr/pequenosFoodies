@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pequeños Foodies</title>
+    <meta name="description" content="Pequeños Foodies - Nuestra idea es que las familias puedan aprender todo lo relacionado con la nutrición de los más pequeños, a través de diferentes talleres, cursos o charlas que brindamos a la comunidad. ¡Los esperemos con mucho entusiasmo y los invitamos a navegar por nuestra página web para conocer todo lo que tenemos para ofrecer!">
+	  <meta name="keywords"  content="Pediatria, Nutrición, BLW, Baby led weaning, alimentación, alimentacion, pedriatia, bebes, talleres alimentacion, talleres alimentación, curso alimentación, cursos alimentacion, alimentos vegetarianos">
+	  <link rel="icon" href="images/logo.ico" style="width: 800px;">
     <script
       src="https://kit.fontawesome.com/d70ede0848.js"
       crossorigin="anonymous"
@@ -30,8 +33,10 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light" id="nav">
         <a class="navbar-brand" href="index.html"
-          ><img src="images/logo.png" alt="logo" class="logo"
-        /></a>
+          ><img src="images/icono.png" alt="logo" class="logo"
+        />
+        <img src="images/texto.png" alt=""></a>
+        
         <button
           class="navbar-toggler"
           type="button"
@@ -46,9 +51,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto" id="menu">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Quienes Somos<span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="#">Quienes Somos<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Servicios</a>
@@ -56,18 +59,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contacto</a>
             </li>
-            <ul class="redesNav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><i class="fab fa-instagram-square"></i
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link redes ig" href="https://www.instagram.com/pequenosfoodies/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link redes fb" href="https://www.facebook.com/Pequeños-Foodies-101015165393209" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+          </ul>
           </ul>
         </div>
       </nav>
@@ -139,7 +137,7 @@
         un mundo de nuevos sabores, texturasy por supuesto una alimentación
         saludable que perdure en el tiempo.
       </p>
-      <div>
+      <div class="sliderCard">
         <div class="slide">
           <div class="card">
             <img class= "card__img" src="images/fondo4.jpg" class="card-img-top" alt="...">
@@ -173,13 +171,7 @@
       <h3 class="consulta__subtitulo">Modalidad: Online/Presencial</h3>
       <div class="prueba">
       <div class="container-fluid">
-        <div class="row consulta">
-          <div class="col-md-6">         
-            <div class="consulta__imgContenedor">
-              <img class="consulta__img" src="images/fondo.png" alt="" />
-            </div>
-          </div>
-        <div class="consulta__contenedor col-md-6">
+        <div class="consulta__contenedor">
           <p class="consulta__descrip">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
             ex tempora obcaecati quis, possimus aut praesentium perspiciatis
@@ -190,7 +182,7 @@
             dolorem officia eveniet minima nam illum voluptas ullam? Itaque, ut
             deleniti?
           </p>
-          <button class="consulta__boton">Consultar</button>
+          <input type="submit" value="Consultar" name="Enviar" class="btn btn__contacto">
         </div>
       
     </div>
