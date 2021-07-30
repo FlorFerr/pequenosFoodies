@@ -73,7 +73,7 @@
     text-align: center;
     color: #515151;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /*Arreglar el margin */
+    margin: 20px;
 }
 h2{
     font-family: 'Amaranth', sans-serif;
@@ -118,17 +118,31 @@ p{
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 20px;    ;
+    flex-grow: 10px;    
     justify-content: space-around;   
 }
 
 .contenedor__individuales{
     margin: 10px 0 10px 0;
+    padding: 10px;
     max-width: 20rem;
     height: auto;
+    text-align: left;
+    background-color: #d9d9d9;
+    align-items: center;
+    transition: all 0.4s ease 0s;
+    
 }
+
+.contenedor__individuales:hover{
+box-shadow: 0px 15px 30px rgb(77 87 222 / 30%);
+    background: #96CCEE;
+}
+
+
+
 .quienesSomos__individuales{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 /*CURSOS*/
@@ -183,6 +197,19 @@ text-align: center;
 color: #494847;
 }
 
+.consulta__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.consulta__descrip{
+    margin-bottom: 0;
+}
+
+.btnConsulta{
+    margin: 10px 100px;
+}
+
 /*CONTACTO*/
 .formulario__contenedor {
     display: flex;
@@ -213,6 +240,7 @@ color: #494847;
     color: #737373;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 180px;
+    
 }
 
 /*FOOTER*/
