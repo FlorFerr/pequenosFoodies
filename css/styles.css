@@ -4,6 +4,9 @@
     box-sizing: border-box;
     
     }
+    body{
+        background-color: #f4f1ec;
+    }
     .sliderCard{
         overflow-x: hidden;
     }
@@ -83,19 +86,23 @@ h2{
 }
 p{
     font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    
+    font-weight: bold;
+    font-size: 18px;
     color: #555555;
+    margin: 20px 50px;
+    padding: 10px 50px;
+    line-height: 35px;
+    letter-spacing: 0.1rem;
+    text-align: justify;
 }
-/*Media para que en el celu no este el letter spacing
-corregir padding y margin*/
+
 .imagenFondo{
     width: 100%;
     height: auto;
 }
 
 /*QUIENES SOMOS*/
+
 .quienesSomos__contenedor{
     margin: 10px;
     max-width: 100%;
@@ -115,10 +122,6 @@ corregir padding y margin*/
     justify-content: space-around;   
 }
 
-/*
-.quienesSomos__indContenedor{
-    justify-content: space-between; o nada probar } 
-*/
 .contenedor__individuales{
     margin: 10px 0 10px 0;
     max-width: 20rem;
@@ -144,6 +147,9 @@ corregir padding y margin*/
 
     width: 100%;
     height: auto;
+}
+.card-title{
+    text-align: center;
 }
 
 .slick-dots li button:before{
@@ -230,9 +236,20 @@ footer{
     .conteLogoFooter{
         margin: auto;
     }
+    .quienesSomos__indContenedor{
+        justify-content: space-between;
+    }
+    p{
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    font-weight: normal;
+    }
         
     }
-/*meqdia con flex direction column probar*/
+
 .conteLogoFooter{
     width: 250px;
     height: auto;
@@ -261,7 +278,7 @@ footer{
 }
 
 .enlacesFooter a:hover{
-    color:#d7e1a6;
+    color:#d9d9d9;
 }
 
 .redesFooter{
@@ -271,12 +288,14 @@ footer{
     
 }
 
+
 .textFooter{
     color: white;
     font-family: 'Puritan', sans-serif;
     font-size: 17px;
     margin: 5px 0;
     padding: 0 10px;
+    font-weight: normal;
 }
 
 .copy{

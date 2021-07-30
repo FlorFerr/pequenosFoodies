@@ -9,12 +9,12 @@ $(document).ready(() =>{
         
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 990,
             settings: {
               arrows: false,
               centerMode: true,
               centerPadding: '40px',
-              slidesToShow: 3
+              slidesToShow: 2
             }
           },
           {
