@@ -122,9 +122,9 @@ p{
     
 }
 .quienesSomos__img{
-    max-width: 75%;
+    max-width: 90%;
     height: auto;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .quienesSomos__indContenedor{
     max-width: 100%;
@@ -287,32 +287,7 @@ footer{
     align-items: center;
     
 }
-@media only screen and (max-width: 480px) {
-    .contenedorFoot {
-        justify-content: flex-start; }
-    .conteLogoFooter{
-        margin: auto;
-    }
-    .quienesSomos__indContenedor{
-        align-items: center;
-        flex-direction: column;
-        align-content: flex-end;
-        flex-wrap: nowrap;
-    }
-    p{
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: left;
-    margin: 0 20px;
-    padding: 0 10px;
-    font-weight: normal;
-    }
-    .card{ 
-        height: auto;}
-    .card-body{
-        height: 7.5rem;
-        }
-    }
+
 
 footer{
     box-shadow: 0px -8px 20px 0px rgba(123,123,123,0.75);
@@ -382,3 +357,36 @@ footer{
     padding: 0 10px;
     text-align: center;
 }
+
+@media only screen and (max-width: 480px) {
+    .contenedorFoot {
+        justify-content: flex-start; }
+    .conteLogoFooter{
+        margin: auto;
+    }
+    .quienesSomos__indContenedor{
+        align-items: center;
+        flex-direction: column;
+        align-content: flex-end;
+        flex-wrap: nowrap;
+    }
+    .quienesSomos__contenedorImg{
+        margin: 0 20px 20px;
+    }
+    .quienesSomos__img{
+        margin: 10px 0;
+    }
+    p{
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0 20px;
+    padding: 0 10px;
+    font-weight: normal;
+    }
+    .card{ 
+        height: auto;}
+    .card-body{
+        height: 7.5rem;
+        }
+    }
