@@ -18,6 +18,7 @@
     font-family: 'Chewy', cursive;
     font-weight: 400;
     font-size: 20px;
+    box-shadow: 4px 8px 23px 0px rgba(123,123,123,0.75);
     
     }
     #menu{
@@ -91,8 +92,8 @@ p{
     font-weight: bold;
     font-size: 18px;
     color: #555555;
-    margin: 20px 50px;
-    padding: 10px 50px;
+    margin: 0 50px;
+    padding: 0 50px;
     line-height: 35px;
     letter-spacing: 0.1rem;
     text-align: justify;
@@ -104,16 +105,23 @@ p{
 }
 
 /*QUIENES SOMOS*/
-
 .quienesSomos__contenedor{
-    margin: 10px;
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.quienesSomos__contenedorImg{
+    margin: 20px;
+    max-width: 80%;
     height: auto;
     text-align: center;
+    background-color: #d9d9d9;
+    transition: all 0.4s ease 0s;
+    
 }
 .quienesSomos__img{
     max-width: 75%;
     height: auto;
+    margin: 20px 0;
 }
 .quienesSomos__indContenedor{
     max-width: 100%;
@@ -138,9 +146,9 @@ p{
     
 }
 
-.contenedor__individuales:hover{
-box-shadow: 0px 15px 30px rgb(77 87 222 / 30%);
-    background: #96CCEE;
+.quienesSomos__contenedorImg:hover,.contenedor__individuales:hover{
+    box-shadow: 4px 8px 23px 0px rgba(123,123,123,0.75);
+    background: #f4d3e9;
 }
 
 
@@ -281,12 +289,17 @@ footer{
     line-height: 1.2;
     letter-spacing: normal;
     text-align: left;
-    margin: 20px 20px;
-    padding: 10px 10px;
+    margin: 0 20px;
+    padding: 0 10px;
     font-weight: normal;
     }
+  
         
     }
+
+footer{
+    box-shadow: 0px -8px 20px 0px rgba(123,123,123,0.75);
+}
 
 .conteLogoFooter{
     width: 250px;
@@ -318,6 +331,10 @@ footer{
 .enlacesFooter a:hover{
     color:#d9d9d9;
 }
+.textFooter:hover{
+    color: #d9d9d9;
+    text-decoration: none;
+}
 
 .redesFooter{
     display: flex;
@@ -326,7 +343,10 @@ footer{
     
 }
 
-
+.textos{
+    display: flex;
+    flex-direction: column;
+}
 .textFooter{
     color: white;
     font-family: 'Puritan', sans-serif;
@@ -334,6 +354,7 @@ footer{
     margin: 5px 0;
     padding: 0 10px;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .copy{
