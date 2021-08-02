@@ -34,6 +34,9 @@
         width: 9.375rem;
         height: auto;
     }
+    .redesNav{
+        display: flex;
+    }
     .redes{
         position: relative;
         width: 28px;
