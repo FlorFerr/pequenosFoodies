@@ -2,16 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     }
-    body{
-        background-color: #f4f1ec;
+body{
+    background-color: #f4f1ec;
     }
-
-    section{
-        overflow-x: hidden;
+section{
+    overflow-x: hidden;
     }
-    
 #nav{
     width: 100%;
     font-weight: 700;
@@ -20,47 +17,45 @@
     font-weight: 400;
     font-size: 20px;
     box-shadow: 4px 8px 23px 0px rgba(123,123,123,0.75);
-    
     }
-    #menu{
-        display: flex;
-        column-gap: 10px;
-        align-items: center;
+#menu{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
     }
-    .icono{
-        width: 3.12rem;
-        height: auto;
+.icono{
+    width: 3.12rem;
+    height: auto;
     }
-    .textoLogo{
-        width: 9.375rem;
-        height: auto;
+.textoLogo{
+    width: 9.375rem;
+    height: auto;
     }
-    .redesNav{
-        display: flex;
+.redesNav{
+    display: flex;
     }
-    .redes{
-        position: relative;
-        width: 28px;
-        height: 28px;
-        border-radius: 4px;
-        text-align: center;
-        margin: 5px;
-        
+.redes{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px; 
     }
-    .ig{
-        background-color: #D95071;
+.ig{
+    background-color: #D95071;
     }
-    .fb{
-        background-color: #2151CE;
+.fb{
+    background-color: #2151CE;
     }
-    .fa-instagram{
-        position: absolute;
-        color: white;
-        font-size: 27px;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
+.fa-instagram{
+    position: absolute;
+    color: white;
+    font-size: 27px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     }
 
     .fa-facebook{
@@ -389,11 +384,10 @@ span{
         letter-spacing: 0.1rem;
         color: #555555;
     }
-    
-    .btnTalleres{
-        margin: 0 10px 20px 10px;
-        width: 90%;
-    }
+.btnTalleres{
+    margin: 0 10px 20px 10px;
+    width: 90%;
+}
   .blwInfantil{
       align-items: center;
   }
