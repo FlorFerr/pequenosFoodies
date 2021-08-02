@@ -5,7 +5,8 @@ $(document).ready(() =>{
         centerPadding: '60px',
         slidesToShow: 3,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
+        
         
         responsive: [
           {
