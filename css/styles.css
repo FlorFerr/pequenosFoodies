@@ -73,7 +73,7 @@
         bottom: 0;
     }
 
-    h2{
+    .tituloTalleres, h2{
         font-family: 'Amaranth', sans-serif;
         font-weight: bold;
         font-size: 30px;
@@ -218,14 +218,11 @@ a:hover{
 
 h5 a{
     font-family: 'Puritan', sans-serif;
-
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-
-text-align: center;
-
-color: #494847;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #494847;
 }
 
 .consulta__contenedor{
@@ -252,33 +249,32 @@ color: #494847;
       width: 500px; }
      .form__section {
         width: 100%; }
-.form__section textarea {
+    .form__section textarea {
           height: 110px;
           resize: none; }
-.form-control {
+    .form-control {
         outline: none;
         border-radius: 10px;
         border: 1px solid #f4d3e9; }
-.form-control:focus, .custom-select:focus, .custom-control-input:focus ~ .custom-control-label::before, .custom-control-input:focus:not(:checked) ~ .custom-control-label::before { border-color: transparent; box-shadow: 0 0 0 0.5px #d9d9d9; }
-.btn__contacto{
-    background: #D7E1A6;
-    border-radius: 10px;
-    padding: 6px;
-    border: none;
-    font-family: 'Puritan', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #737373;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 180px;
-    
-}
+    .form-control:focus, .custom-select:focus, .custom-control-input:focus ~ .custom-control-label::before, .custom-control-input:focus:not(:checked) ~ .custom-control-label::before { border-color: transparent; box-shadow: 0 0 0 0.5px #d9d9d9; }
+    .btn__contacto{
+        background: #D7E1A6;
+        border-radius: 10px;
+        padding: 6px;
+        border: none;
+        font-family: 'Puritan', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #737373;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 180px;
+    }
 
 /*FOOTER*/
 footer{
     background-color: #3F3B33;
+    box-shadow: 0px -8px 20px 0px rgba(123,123,123,0.75);
 }
-
 .contenedorFoot{
     width: 100%;
     padding: 20px;
@@ -287,25 +283,15 @@ footer{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
 }
-
-
-footer{
-    box-shadow: 0px -8px 20px 0px rgba(123,123,123,0.75);
-}
-
 .conteLogoFooter{
     width: 250px;
     height: auto;
     text-align: center;
-    
-
 }
 .logoFooter{
     width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
 .enlacesFooter ul{
     margin-bottom: 0;
@@ -316,12 +302,10 @@ footer{
     font-family: 'Puritan', sans-serif;
     font-size: 18px;
 }
-
 .listaFooter{
     list-style-type: none;
     padding: 10px;
 }
-
 .enlacesFooter a:hover{
     color:#d9d9d9;
 }
@@ -329,14 +313,11 @@ footer{
     color: #d9d9d9;
     text-decoration: none;
 }
-
 .redesFooter{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    
 }
-
 .textos{
     display: flex;
     flex-direction: column;
@@ -350,7 +331,6 @@ footer{
     font-weight: normal;
     text-decoration: none;
 }
-
 .copy{
     color: white;
     font-family: 'Puritan', sans-serif;
@@ -360,41 +340,105 @@ footer{
     text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
-    .contenedorFoot {
-        justify-content: flex-start; }
-    .conteLogoFooter{
-        margin: auto;
+
+
+    /*TALLERES*/
+    .talleresContenedor{
+        display: flex;
+        align-items: baseline;
     }
-    .quienesSomos__indContenedor{
-        align-items: center;
-        flex-direction: column;
-        align-content: flex-end;
-        flex-wrap: nowrap;
-    }
-    .quienesSomos__contenedorImg{
-        margin: 0 20px 20px;
-    }
-    .quienesSomos__img{
-        margin: 10px 0;
-    }
-    p{
-    line-height: 1.2;
-    letter-spacing: normal;
+.imgTalleres{
+    width: 100%;
+    height: auto;
+}
+hr{
+    margin: auto;
+    width: 20%;
+    border: 3px solid #F4D3E9;
+}
+.tallerDescripcion{
+    margin: 30px;
+    padding: 0;
     text-align: left;
-    margin: 0 20px;
-    padding: 0 10px;
     font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0.1rem;
+}
+span{
+    font-weight: bold;
+}
+.temario{
+    font-weight: bold;
+    margin: 30px 10px 0 10px;
+    padding: 0;
+}
+.listaTemario{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        margin: 0 10px 20px 10px;
+        padding: 0 5px;
+        text-align: left;
+        list-style: none;
+        line-height: 25px;
+        letter-spacing: 0.1rem;
     }
-    .card{ 
-        height: auto;}
-    .card-body{
-        height: 7.5rem;
+    
+    .btnTalleres{
+        margin: 0 10px 20px;
+    }
+  
+
+
+    @media only screen and (max-width: 480px) {
+        .contenedorFoot {
+            justify-content: flex-start; }
+        .conteLogoFooter{
+            margin: auto;
         }
-    .consulta__subtitulo{
-        margin: 20px;
-    }
-    .btnConsulta{
-        margin: 10px 25px;
-    }
-    }
+        .quienesSomos__indContenedor{
+            align-items: center;
+            flex-direction: column;
+            align-content: flex-end;
+            flex-wrap: nowrap;
+        }
+        .quienesSomos__contenedorImg{
+            margin: 0 20px 20px;
+        }
+        .quienesSomos__img{
+            margin: 10px 0;
+        }
+        p{
+            line-height: 1.2;
+            letter-spacing: normal;
+            text-align: left;
+            margin: 0 20px;
+            padding: 0 10px;
+            font-weight: normal;
+        }
+        .card{ 
+            height: auto;}
+        .card-body{
+            height: 7.5rem;
+            }
+        .consulta__subtitulo{
+            margin: 20px;
+        }
+        .btnConsulta{
+            margin: 10px 25px;
+        }
+        .tituloTalleres{
+            margin-bottom: 10px;
+        }
+        hr{
+            width: 40%;
+        }
+        .tallerDescripcion{
+            margin-bottom: 10px;
+        }
+        .temario{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+     
+        }
