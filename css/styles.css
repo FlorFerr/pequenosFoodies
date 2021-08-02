@@ -13,6 +13,7 @@
     }
     
 #nav{
+    width: 100%;
     font-weight: 700;
     background-color:#FFE5B3;
     font-family: 'Chewy', cursive;
@@ -72,7 +73,33 @@
         bottom: 0;
     }
 
+    h2{
+        font-family: 'Amaranth', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: #515151;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 22px;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #555555;
+        margin: 10px 50px;
+        padding: 10px 50px;
+        line-height: 35px;
+        letter-spacing: 0.1rem;
+        text-align: justify;
+    }
 /*PRINCIPAL*/
+.imagenPrincipal{
+    width: 100%;
+    height: auto;
+}
+
+
 .principal__titulo{
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;  
@@ -81,31 +108,7 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 20px;
 }
-h2{
-    font-family: 'Amaranth', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    color: #515151;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 22px;
-}
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color: #555555;
-    margin: 0 50px;
-    padding: 0 50px;
-    line-height: 35px;
-    letter-spacing: 0.1rem;
-    text-align: justify;
-}
 
-.imagenFondo{
-    width: 100%;
-    height: auto;
-}
 
 /*QUIENES SOMOS*/
 .quienesSomos__contenedor{
@@ -114,7 +117,7 @@ p{
 }
 .quienesSomos__contenedorImg{
     margin: 20px;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     text-align: center;
     background-color: #d9d9d9;
