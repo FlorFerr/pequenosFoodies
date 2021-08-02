@@ -233,7 +233,9 @@ h5 a{
 .consulta__descrip{
     margin-bottom: 0;
 }
-
+.btn:hover{
+    box-shadow: 4px 8px 20px 0px rgba(123,123,123,0.75);
+}
 .btnConsulta{
     margin: 10px 100px;
 }
@@ -392,7 +394,23 @@ span{
         margin: 0 10px 20px 20px;
         width: 90%;
     }
-  
+  .blw{
+      align-items: center;
+  }
+  .blwDescripcion{
+      margin: 30px 30px 10px 30px;
+  }
+  .blwIncluido{
+      margin: 10px;
+      margin-bottom: 20px;
+  }
+  .blwTemario{
+      margin: 30px;
+  }
+.imgBlw{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;}
 
 
     @media only screen and (max-width: 480px) {
@@ -414,8 +432,7 @@ span{
             margin: 10px 0;
         }
         p{
-            line-height: 1.2;
-            letter-spacing: normal;
+            line-height: 25px;
             text-align: left;
             margin: 0 20px;
             padding: 0 10px;
@@ -444,6 +461,9 @@ span{
         .temario{
             margin-top: 10px;
             margin-bottom: 10px;
+        }
+        .blwTemario{
+            margin: 5px;
         }
      
         }
