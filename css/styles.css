@@ -170,8 +170,11 @@ p{
 .card{ 
     height: 22rem;
     margin: 20px; 
-    box-shadow: 4px 8px 20px 0px rgba(123,123,123,0.75);
+    
 
+}
+.card:hover{
+    box-shadow: 4px 8px 20px 0px rgba(123,123,123,0.75);
 }
 .card__img{
 
@@ -307,7 +310,7 @@ footer{
     .card{ 
         height: auto;}
     .card-body{
-        height: 120px;
+        height: 7.5rem;
         }
     }
 
