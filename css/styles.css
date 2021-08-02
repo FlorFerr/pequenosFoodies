@@ -391,26 +391,38 @@ span{
     }
     
     .btnTalleres{
-        margin: 0 10px 20px 20px;
+        margin: 0 10px 20px 10px;
         width: 90%;
     }
-  .blw{
+  .blwInfantil{
       align-items: center;
   }
-  .blwDescripcion{
+  .blwInfantilDescripcion{
       margin: 30px 30px 10px 30px;
   }
-  .blwIncluido{
+  .blwInfantilIncluido{
       margin: 10px;
       margin-bottom: 20px;
   }
-  .blwTemario{
+  .blwInfantilTemario{
       margin: 30px 15px;
+  }
+  .contenedor__imgBlwInfantil{
+      text-align: center;
   }
 .imgBlw{
     width: 100%;
     height: auto;
     margin: 20px 0;}
+.imgInfantil{
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+    
+}
+.contenedorBtnInfantil{
+    text-align: center;
+}
 
 
     @media only screen and (max-width: 480px) {
@@ -462,8 +474,8 @@ span{
             margin-top: 10px;
             margin-bottom: 10px;
         }
-        .blwTemario{
-            margin: 5px;
+        .blwInfantilTemario{
+            margin: 3px;
         }
      
         }
