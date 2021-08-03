@@ -1,3 +1,5 @@
+//ANIMACIONES
+new WOW().init();
 //SLIDER
 $(document).ready(() =>{
     $(".slide").slick({
@@ -52,3 +54,4 @@ async function handleSubmit(event){
     console.log("enviado")
   }
 }
+
