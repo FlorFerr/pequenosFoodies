@@ -255,6 +255,7 @@ h5 a{
         border: 1px solid #f4d3e9; }
     .form-control:focus, .custom-select:focus, .custom-control-input:focus ~ .custom-control-label::before, .custom-control-input:focus:not(:checked) ~ .custom-control-label::before { border-color: transparent; box-shadow: 0 0 0 0.5px #d9d9d9; }
     .btn__contacto{
+        height: auto;
         background: #D7E1A6;
         border-radius: 10px;
         padding: 6px;
@@ -418,7 +419,20 @@ span{
     text-align: center;
 }
 
-
+.modal-content, .modal-header{
+    border: 1px solid #F4D3E9;
+}
+.modal-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #555555;
+}
+.modal-Texto{
+    margin: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
     @media only screen and (max-width: 480px) {
         .contenedorFoot {
             justify-content: flex-start; }
