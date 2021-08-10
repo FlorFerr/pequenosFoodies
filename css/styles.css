@@ -453,7 +453,7 @@ span{
         }
         p{
             line-height: 25px;
-            text-align: left;
+            text-align: justify;
             margin: 0 20px;
             padding: 0 10px;
             font-weight: normal;
