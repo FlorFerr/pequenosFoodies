@@ -41,32 +41,35 @@ section{
     border-radius: 4px;
     text-align: center;
     margin: 5px; 
+    text-align: center;
     }
-.ig{
-    background-color: #D95071;
-    }
-.fb{
-    background-color: #2151CE;
-    }
+
 .fa-instagram{
     position: absolute;
-    color: white;
+    color: #4E4B45;
     font-size: 27px;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     }
+    .fa-instagram:hover{
+        color: #D95071;
+    }
 
-    .fa-facebook{
+.fa-facebook{
         position: absolute;
-        color: white;
+        color: #4E4B45;
+        padding-top: 2px;
         font-size: 23px;
-        top: -10;
+        top: 0;
         right: 0;
         left: 0;
         bottom: 0;
     }
+.fa-facebook:hover{
+    color: #3b5998;
+}
 
     .tituloTalleres, h2{
         font-family: 'Amaranth', sans-serif;
@@ -273,6 +276,26 @@ footer{
     background-color: #3F3B33;
     box-shadow: 0px -8px 20px 0px rgba(123,123,123,0.75);
 }
+.rrssFooter{
+    font-size: 27px;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    margin: 5px; 
+    text-align: center;
+    
+}
+
+.rsFooter{
+    color: white;
+}
+.fa-whatsapp{
+    font-size: 22px;
+    padding-right: 5px;
+}
+.fa-envelope{
+    padding-right: 5px;
+}
 .contenedorFoot{
     width: 100%;
     padding: 20px;
@@ -310,6 +333,7 @@ footer{
 .textFooter:hover{
     color: #d9d9d9;
     text-decoration: none;
+    
 }
 .redesFooter{
     display: flex;
@@ -321,6 +345,7 @@ footer{
     flex-direction: column;
 }
 .textFooter{
+    display: flex;
     color: white;
     font-family: 'Puritan', sans-serif;
     font-size: 17px;
@@ -328,6 +353,7 @@ footer{
     padding: 0 10px;
     font-weight: normal;
     text-decoration: none;
+    align-items: center;
 }
 .copy{
     color: white;
@@ -453,7 +479,7 @@ span{
         }
         p{
             line-height: 25px;
-            text-align: justify;
+            text-align: center;
             margin: 0 20px;
             padding: 0 10px;
             font-weight: bold;
