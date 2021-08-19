@@ -503,10 +503,16 @@ span{
         }
         .tallerDescripcion{
             margin: 10px;
+          text-align: center;
         }
+        .listaTemario {
+            text-align: left;
+        }
+        
         .temario{
             margin-top: 10px;
             margin-bottom: 10px;
+            
         }
         .blwInfantilTemario{
             margin: 3px;
