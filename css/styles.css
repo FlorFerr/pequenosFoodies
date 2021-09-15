@@ -78,7 +78,7 @@ section{
         text-align: center;
         color: #515151;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin: 22px;
+        margin: 15px;
     }
     p{
         font-family: 'Open Sans', sans-serif;
@@ -227,6 +227,10 @@ h5 a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.consulta__titulo{
+    margin-top: 80px;
 }
 .consulta__descrip{
     margin-bottom: 0;
@@ -432,11 +436,11 @@ span{
       text-align: center;
   }
 .imgBlw{
-    width: 80%;
+    width: 60%;
     height: auto;
     margin: 20px 0;}
 .imgInfantil{
-    width: 80%;
+    width: 70%;
     height: auto;
     margin: 10px 0;
     
@@ -517,5 +521,9 @@ span{
         .blwInfantilTemario{
             margin: 3px;
         }
-     
+        .imgBlw{
+            width: 80%;
         }
+        .imgInfantil{
+            width: 90%;
+    }}
